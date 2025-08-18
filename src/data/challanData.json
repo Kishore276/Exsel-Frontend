@@ -1,0 +1,54 @@
+{
+  "violationTypes": {
+    "speeding": {
+      "amount": 1000,
+      "description": "Exceeding speed limit"
+    },
+    "redLight": {
+      "amount": 2000,
+      "description": "Running red light"
+    },
+    "noHelmet": {
+      "amount": 500,
+      "description": "Not wearing helmet"
+    },
+    "wrongSide": {
+      "amount": 750,
+      "description": "Driving on wrong side"
+    },
+    "overloading": {
+      "amount": 1500,
+      "description": "Vehicle overloading"
+    },
+    "noLicense": {
+      "amount": 2500,
+      "description": "Driving without license"
+    },
+    "expiredRC": {
+      "amount": 800,
+      "description": "Expired registration certificate"
+    },
+    "noInsurance": {
+      "amount": 1200,
+      "description": "No valid insurance"
+    }
+  },
+  "vehicleTypes": {
+    "motorcycle": {
+      "baseAmount": 500,
+      "description": "Two-wheeler"
+    },
+    "car": {
+      "baseAmount": 1000,
+      "description": "Four-wheeler"
+    },
+    "truck": {
+      "baseAmount": 2000,
+      "description": "Heavy vehicle"
+    },
+    "bus": {
+      "baseAmount": 1500,
+      "description": "Public transport"
+    }
+  }
+} 

@@ -1,0 +1,96 @@
+{
+  "vehicles": {
+    "motorcycle": {
+      "baseAmount": 500,
+      "description": "Two-wheeler",
+      "maxSpeed": 60,
+      "allowedAreas": ["city", "highway"],
+      "restrictedAreas": ["school_zone", "hospital_zone"]
+    },
+    "car": {
+      "baseAmount": 1000,
+      "description": "Four-wheeler",
+      "maxSpeed": 80,
+      "allowedAreas": ["city", "highway"],
+      "restrictedAreas": ["school_zone", "hospital_zone"]
+    },
+    "truck": {
+      "baseAmount": 2000,
+      "description": "Heavy vehicle",
+      "maxSpeed": 60,
+      "allowedAreas": ["highway"],
+      "restrictedAreas": ["city", "school_zone", "hospital_zone"]
+    },
+    "bus": {
+      "baseAmount": 1500,
+      "description": "Public transport",
+      "maxSpeed": 70,
+      "allowedAreas": ["city", "highway"],
+      "restrictedAreas": ["school_zone", "hospital_zone"]
+    }
+  },
+  "violations": {
+    "speeding": {
+      "amount": 1000,
+      "description": "Exceeding speed limit",
+      "points": 3
+    },
+    "redLight": {
+      "amount": 2000,
+      "description": "Running red light",
+      "points": 4
+    },
+    "noHelmet": {
+      "amount": 500,
+      "description": "Not wearing helmet",
+      "points": 2
+    },
+    "wrongSide": {
+      "amount": 750,
+      "description": "Driving on wrong side",
+      "points": 3
+    },
+    "overloading": {
+      "amount": 1500,
+      "description": "Vehicle overloading",
+      "points": 4
+    },
+    "noLicense": {
+      "amount": 2500,
+      "description": "Driving without license",
+      "points": 5
+    },
+    "expiredRC": {
+      "amount": 800,
+      "description": "Expired registration certificate",
+      "points": 2
+    },
+    "noInsurance": {
+      "amount": 1200,
+      "description": "No valid insurance",
+      "points": 3
+    }
+  },
+  "statistics": {
+    "totalChallans": 0,
+    "pendingChallans": 0,
+    "paidChallans": 0,
+    "totalRevenue": 0,
+    "violationStats": {
+      "speeding": 0,
+      "redLight": 0,
+      "noHelmet": 0,
+      "wrongSide": 0,
+      "overloading": 0,
+      "noLicense": 0,
+      "expiredRC": 0,
+      "noInsurance": 0
+    },
+    "vehicleTypeStats": {
+      "motorcycle": 0,
+      "car": 0,
+      "truck": 0,
+      "bus": 0
+    }
+  }
+} 
