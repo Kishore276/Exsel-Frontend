@@ -1,5 +1,18 @@
 This is only frontend part of my exsel project, it contains only frontend which is built using reactJS
 
+
+## Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Create .env file with Firebase config
+touch .env.local
+
+# Start development server
+npm run dev
+
 ## Developed By
 G.Yuva Kishore Reddy  
 Passionate about AI, automation, and building impactful tech solutions.
