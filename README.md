@@ -1,3 +1,5 @@
+This is only frontend part of my exsel project, it contains only frontend which is built using reactJS
+
 ## Developed By
 G.Yuva Kishore Reddy  
 Passionate about AI, automation, and building impactful tech solutions.
